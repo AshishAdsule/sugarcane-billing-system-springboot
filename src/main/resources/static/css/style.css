@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f6f9;
+}
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #1e293b;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+}
+
+.sidebar h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5e1;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #334155;
+    color: white;
+}
+
+.main-content {
+    margin-left: 230px;
+    padding: 30px;
+}
+
+.card {
+    border-radius: 10px;
+}
+.submenu {
+    padding-left: 40px !important;
+    font-size: 14px;
+}
+
+.submenu:hover {
+    background-color: #475569;
+}
+.form-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.form-card h2 {
+    margin-bottom: 25px;
+    color: #1e293b;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #334155;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #1e293b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30,41,59,0.2);
+}
+
+.form-actions {
+    margin-top: 25px;
+}
+
+.btn-save {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-save:hover {
+    background-color: #334155;
+}
